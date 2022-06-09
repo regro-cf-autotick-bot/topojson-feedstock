@@ -32,7 +32,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: "topojson - a powerful library to encode geographic data as topology in Python!🌍"
+  summary: "topojson - a powerful library to encode spatial data as topology in Python!"
   doc_url: https://mattijn.github.io/topojson
   dev_url: https://github.com/mattijn/topojson
 
