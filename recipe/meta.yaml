@@ -1,4 +1,4 @@
-{% set version = "1.4" %}
+{% set version = "1.5" %}
 
 package:
   name: topojson
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/topojson/topojson-{{ version }}.tar.gz
-  sha256: cef33836cdd3d9beb145a8eb0e25d51a3deddfaa1394cabfc4a59329ac0b7867
+  sha256: 71c1463b8bb666297953e3c461efd3f0ebff6f4f223d48ea40fd8105caf6ca2e
 
 build:
   number: 0
