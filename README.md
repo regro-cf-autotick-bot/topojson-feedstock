@@ -1,11 +1,11 @@
-About topojson
-==============
+About topojson-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/topojson-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mattijn/topojson
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/topojson-feedstock/blob/main/LICENSE.txt)
 
 Summary: topojson - a powerful library to encode spatial data as topology in Python!
 

@@ -1,4 +1,4 @@
-{% set version = "1.5" %}
+{% set version = "1.6" %}
 
 package:
   name: topojson
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/topojson/topojson-{{ version }}.tar.gz
-  sha256: 71c1463b8bb666297953e3c461efd3f0ebff6f4f223d48ea40fd8105caf6ca2e
+  sha256: 7c6388e0e5f2847629a87938b59e1a37dda3d180779368026220bcaec2ade7f2
 
 build:
   number: 0
@@ -22,6 +22,7 @@ requirements:
     - python >=3
     - numpy
     - shapely
+    - packaging
 
 test:
   imports:
