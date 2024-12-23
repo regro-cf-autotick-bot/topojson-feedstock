@@ -5,26 +5,28 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/t/topojson/topojson-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/t/topojson/topojson-{{ version }}.tar.gz
   sha256: 5a8389ff576d5540660d4430dab56fcadef7c1f90b9f1aa486b1cb140033ff3b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python >=3
+    - python {{ python_min }}
     - pip
     - flit
   run:
-    - python >=3
+    - python >={{ python_min }}
     - numpy
     - shapely
     - packaging
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - topojson
 
