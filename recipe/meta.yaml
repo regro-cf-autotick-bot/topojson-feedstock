@@ -1,12 +1,12 @@
-{% set version = "1.10" %}
+{% set version = "2.1" %}
 
 package:
   name: topojson
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/t/topojson/topojson-{{ version }}.tar.gz
-  sha256: a7f53406324061a0310bec46740a6609147c24daeb354596c68345b9527b38c1
+  url: https://files.pythonhosted.org/packages/source/t/topojson/topojson-{{ version }}.tar.gz
+  sha256: ee4d197d96775321de4c5e7f29cbf0d06829de672b9f3387b3e775dd1982057a
 
 build:
   number: 0
